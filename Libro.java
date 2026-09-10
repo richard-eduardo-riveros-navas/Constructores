@@ -24,7 +24,7 @@ public class Libro {
 
     @Override
     public String toString() {
-        return "Libro [Título: '" + titulo + "', Autor: '" + autor + "', Páginas: " + numeroPaginas + "]";
+        return "Libro [Título: '" + titulo + "', Autor: '" + autor + "', Páginas: " + numeropaginas + "]";
     }
 }
 

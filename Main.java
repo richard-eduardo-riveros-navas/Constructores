@@ -1,9 +1,6 @@
-import Libro;
-import uentaBancaria;
-import Estudiante;
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
