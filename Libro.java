@@ -22,8 +22,10 @@ public class Libro {
     }
 
 
-    public void mostrarInformacion() {
-        System.out.println("Libro - Título: " + titulo + ", Autor: " + autor + ", Páginas: " + numeropaginas);
+    @Override
+    public String toString() {
+        return "Libro [Título: '" + titulo + "', Autor: '" + autor + "', Páginas: " + numeroPaginas + "]";
     }
 }
+
     
